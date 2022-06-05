@@ -117,5 +117,26 @@ button:focus {
   float: right;
   padding: 15px; 
 }
-
-
+@media screen and (min-width: 992px) {
+  ul {
+    width: 450px;
+  }
+}
+ul{
+  color: black;
+ }
+li:nth-child(even) {
+  background: rgb(79, 128, 0);
+}
+li:nth-child(odd) {
+  background: red;
+}
+li:last-child{
+  border-bottom: 2px solid black;
+}
+li:first-child{
+  border-top: 2px solid black
+}
+li{
+  border-bottom: 1px solid black;
+}
